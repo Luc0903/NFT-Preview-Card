@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+} 
+
+body {
+	background-color: hsl(217, 54%, 11%);
+}
+
+.section1 {
+	position: relative;
+	top: 150px;
+}  
+
+.card {
+	border-radius: 18px;
+	position: relative;
+	z-index: 100;
+	margin: 0px auto;
+	width: 350px;
+	height: 600px;
+	background-color: hsl(216, 50%, 16%);
+	padding: 23px;
+}
+
+.card-grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 325px 20px 1fr 1fr 1fr;
+	border-radius: 7px;
+	grid-row-gap: 20px;
+	font-family: 'Outfit', sans-serif;
+}
+
+.grid-item1 a img {
+	border-radius: 10px;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+} 
+
+.grid-item2 {
+	font-weight: 600;
+	font-size: 18px;
+	color: #fff;
+} 
+
+.grid-item3 {
+	color: hsl(215, 51%, 70%);
+}
+
+.grid-item4 {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 3px solid hsl(215, 32%, 27%);
+}
+
+.eth-container {
+	display: flex;
+	color: hsl(178, 100%, 50%);
+}
+
+.eth-logo{
+	padding: 0px 2px;
+}
+
+.eth-price {
+	padding: 0px 2px;
+}
+
+.time-container {
+	display: flex;
+	color: hsl(215, 51%, 70%);
+}
+
+.time-logo {
+	padding: 0px 4px;
+}
+
+.time-text {
+	padding: 0px 4px;
+} 
+
+.grid-item5 {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.grid-item5-img {
+	width: 40px;
+	height: 40px;
+}
+
+.grid-item5-img a img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+.by-text {
+	margin-left: 7px;
+	color: hsl(215, 51%, 70%);
+} 
+
+.author-name {
+	color: #fff;
+}
